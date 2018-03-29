@@ -1,0 +1,79 @@
+@font-face {
+	font-family: "acsp";
+    src: url('policeacsp.otf');}
+        
+@font-face {
+    font-family: "acsg";
+    src: url('policeacsg.otf');}
+h1
+{
+    font-family: acsg;
+    font-size: 5em;
+}
+
+
+.uno
+{
+    color: #D31F43;
+    font-family: acsg;
+    font-size: 5em;
+    margin-left: 1%;
+}
+
+
+.deux
+{
+    font-family: acsg;
+    font-size: 5em;
+    margin-left: 1%;
+    padding: 0.5%;
+}
+
+.trois
+{
+    font-family: acsg;
+    font-size: 5em;
+    border: solid #D31F43 2px;
+    padding: 0.5%;
+    background-color: #D31F43;
+    margin-left: 1%;
+    color: white
+
+}
+
+.quatre
+{
+    color: #D31F43;
+    font-family: acsg;
+    font-size: 5em;
+    margin-left: 1%;
+}
+
+.top
+{
+    display: flex;
+    justify-content: center
+}
+.ligne
+{
+    display: flex;
+    position: absolute;
+    left: 755px;
+    top: 174px;
+    border : solid black 0.1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+}
+.cinq
+{
+    font-family: acsp;
+    font-size: 4em;
+    position: absolute;
+    left: 755px;
+    top: 135px;
+    
+    
+    
+    
+}
